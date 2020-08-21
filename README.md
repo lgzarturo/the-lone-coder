@@ -1,13 +1,13 @@
 # 👨🏻‍💻 The Lone Coder Theme
-[![Version](https://img.shields.io/jetbrains/plugin/v/com.lgzarturo.the.lone.unique.coder.dark.theme.svg?style=for-the-badge)](https://plugins.jetbrains.com/plugin/com.lgzarturo.the.lone.unique.coder.dark.theme)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.lgzarturo.the.lone.unique.coder.dark.theme.svg?style=for-the-badge)](https://plugins.jetbrains.com/plugin/com.lgzarturo.the.lone.unique.coder.dark.theme)
+[![Version](https://img.shields.io/jetbrains/plugin/v/14906-the-lone-coder.svg?style=for-the-badge)](https://plugins.jetbrains.com/plugin/14906-the-lone-coder)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/14906-the-lone-coder.svg?style=for-the-badge)](https://plugins.jetbrains.com/plugin/14906-the-lone-coder)
 
 
 ![The Lone Coder Theme](docs/screenshot-theme.jpg)
 
 ## Description
 
-<img src="https://raw.githubusercontent.com/lgzarturo/the-lone-coder/master/resources/META-INF/pluginIcon_dark.svg" width="256" align="right" alt="Icon the lone coder" />
+<img src="https://raw.githubusercontent.com/lgzarturo/the-lone-coder/88b3c8594b74c7ef751ed822b41285827ed7d872/src/main/resources/META-INF/pluginIcon_dark.svg" width="256" align="right" alt="Icon the lone coder" />
 
 This theme is compatible with all JetBrains IDEs:
 
@@ -18,6 +18,7 @@ AppCode | CLion | DataGrip | GoLand | Intellij IDEA | PhpStorm | PyCharm | Rider
 ## Links
 
 - [Screenshots](docs/screenshots.md)
-- [Background](docs/background-code.png)
+- [Background](https://raw.githubusercontent.com/lgzarturo/the-lone-coder/master/src/main/resources/background-code.png)
 - [JetBrains Plugin](https://plugins.jetbrains.com/plugin/14906-the-lone-coder)
-- [Report Bug](https://github.com/lgzarturo/TheLoneCoder/issues)
+- [Report Bug](https://github.com/lgzarturo/the-lone-coder/issues)
+- [Wiki](https://github.com/lgzarturo/the-lone-coder/wiki)
