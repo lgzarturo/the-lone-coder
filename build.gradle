@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.4.21'
+}
+
+group 'com.lgzarturo.the.lone.unique.coder.dark.theme'
+version '1.0.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+// See https://www.jetbrains.com/intellij-repository/snapshots
+// See https://www.jetbrains.com/intellij-repository/releases
+intellij {
+    version '191.7479.19'
+    sameSinceUntilBuild false
+}
+
+// See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
+patchPluginXml {
+    sinceBuild '191'
+    untilBuild '202.*'
+    version project.version
+
+    changeNotes """
+    <em>19-08-2020</em><br/>
+    <ul>
+    <li>1.0.1	Free <a href="https://raw.githubusercontent.com/lgzarturo/TheLoneCoder/master/docs/background-code.png">brackdround</a>, best colors</a></li>
+    <li>1.0.0   Match UI colors with the theme</li>
+    <li>1.0.0	Custom colors and font</li>
+    <li>1.0 	Inspiration <a href="https://plugins.jetbrains.com/plugin/12891-codelytv-theme/">CodelyTV Theme</a></li>
+    </ul>
+    """
+}

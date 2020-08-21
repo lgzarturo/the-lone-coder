@@ -1,0 +1,241 @@
+{
+	"name": "The Lone Coder",
+	"dark": true,
+	"author": "Arturo López <lgzarturo@gmail.com>",
+	"editorScheme": "/The_Lone_Coder.xml",
+	"colors": {
+	  	"border": "#313233",
+		"bg": "#272829",
+	  	"bg0": "#171a1a",
+	  	"bg1": "#343c32",
+	  	"bg2": "#2f3b2b",
+	  	"bg3": "#424e32",
+		"fg": "#efeee7",
+		"red": "#cd1911",
+		"brightRed": "#f85a47",
+	  	"brown": "#8f4c01",
+	  	"brightBrown": "#926736",
+		"orange": "#ee5604",
+		"brightOrange": "#fa923d",
+		"yellow": "#dbd109",
+		"brightYellow": "#faf02f",
+		"green": "#4fa910",
+		"brightGreen": "#8df332",
+		"blue": "#25b3c1",
+		"brightBlue": "#6acadb",
+		"purple": "#d73b82",
+		"brightPurple": "#efbdcb",
+	  	"pink": "#FF8FA2FF",
+	  	"brightPink": "#fac0cbff",
+		"aqua": "#12e9ac",
+		"brightAqua": "#5ef5d1",
+	  	"gray": "#acacac",
+	  	"brightGray": "#dedede"
+	},
+	"ui": {
+		"*": {
+			"background": "bg",
+			"borderColor": "border",
+			"disabledBorderColor": "bg3",
+			"foreground": "fg",
+			"infoForeground": "brightOrange",
+			"selectionBackground": "bg0",
+			"selectionForeground": "brightGray",
+			"selectionInactiveBackground": "bg1",
+			"selectionBackgroundInactive": "bg2",
+			"disabledBackground": "bg3",
+			"inactiveBackground": "bg3",
+			"disabledForeground": "#E0861F",
+			"disabledText": "#E0861F",
+			"inactiveForeground": "#E0861F",
+			"acceleratorForeground": "fg",
+			"acceleratorSelectionForeground": "brightGray",
+			"errorForeground": "brightRed",
+			"focusColor": "#1AEBFF",
+			"focusedBorderColor": "#1AEBFF",
+			"hoverBorderColor": "#1AEBFF",
+			"pressedBorderColor": "#1AEBFF",
+			"separatorColor": "gray",
+			"lineSeparatorColor": "border"
+		},
+		"ActionButton": {
+			"hoverBackground": "bg1",
+			"pressedBackground": "bg3"
+		},
+		"Borders": {
+			"color": "border",
+			"ContrastBorderColor": "border"
+		},
+		"Component": {
+			"errorFocusColor": "brightRed",
+			"inactiveErrorFocusColor": "red",
+			"warningFocusColor": "brightOrange",
+			"inactiveWarningFocusColor": "brown",
+			"iconColor": "fg",
+			"hoverIconColor": "fg"
+		},
+		"Counter": {
+			"background": "fg",
+			"foreground": "bg"
+		},
+		"DebuggerPopup.borderColor": "border",
+		"Editor": {
+			"background": "bg1",
+			"foreground": "gray",
+			"shortcutForeground": "brightGreen"
+		},
+		"EditorPane.inactiveBackground": "bg",
+		"EditorTabs": {
+			"underlineColor": "#1AEBFF",
+			"underlineHeight": 4,
+			"underlinedTabBackground": "bg",
+			"inactiveColoredFileBackground": "bg0"
+		},
+		"FileColor": {
+			"Yellow": "#381C00",
+			"Green": "#092E15",
+			"Blue": "#00004D",
+			"Violet": "#471747",
+			"Orange": "#733000",
+			"Rose": "#4D0F22"
+		},
+		"InplaceRefactoringPopup": {
+			"borderColor": "border"
+		},
+		"Link": {
+			"activeForeground": "#D2F53C",
+			"hoverForeground": "#D2F53C",
+			"pressedForeground": "#D2F53C",
+			"visitedForeground": "#D2F53C",
+			"secondaryForeground": "#D2F53C"
+		},
+		"MemoryIndicator": {
+			"usedBackground": "#3333FF",
+			"allocatedBackground": "#7e00d9"
+		},
+		"NavBar.borderColor": "border",
+		"Notification": {
+			"errorForeground": "fg",
+			"errorBackground": "#800002",
+			"errorBorderColor": "#E6194B",
+			"ToolWindow": {
+				"informativeForeground": "fg",
+				"informativeBackground": "#004b73",
+				"informativeBorderColor": "#e6e6e6",
+				"warningForeground": "fg",
+				"warningBackground": "#804605",
+				"warningBorderColor": "#F58231",
+				"errorForeground": "fg",
+				"errorBackground": "#800002",
+				"errorBorderColor": "#E6194B"
+			}
+		},
+		"ParameterInfo": {
+			"background": "#281A33",
+			"foreground": "gray",
+			"currentOverloadBackground": "#450073",
+			"currentParameterForeground": "fg"
+		},
+		"Plugins": {
+			"Tab": {
+				"selectedForeground": "fg",
+				"selectedBackground": "#3333FF",
+				"hoverBackground": "#3333FF"
+			},
+
+			"SearchField.borderColor": "border",
+			"SectionHeader.background": "#2e5b01",
+			"tagBackground": "bg0",
+			"tagForeground": "fg",
+
+			"Button": {
+				"installForeground": "#1AEBFF",
+				"installBorderColor": "#1AEBFF",
+				"installFillForeground": "bg0",
+				"installFillBackground": "#1AEBFF",
+				"updateForeground": "bg0",
+				"updateBackground": "#1AEBFF"
+			},
+
+			"lightSelectionBackground": "bg0"
+		},
+
+		"SearchEverywhere": {
+			"Tab": {
+				"selectedForeground": "fg",
+				"selectedBackground": "#6c6cf6"
+			},
+			"SearchField.borderColor": "border",
+			"Advertiser": {
+				"background": "#2e2eab",
+				"borderInsets": "3,8,5,0"
+			}
+		},
+
+		"SearchMatch": {
+			"startBackground": "yellow",
+			"endBackground": "brightYellow"
+		},
+
+		"SpeedSearch": {
+			"foreground": "#464748",
+			"borderColor": "border",
+			"background": "#1AEBFF"
+		},
+		"Tree.modifiedItemForeground": "#4FF0FF",
+		"ValidationTooltip": {
+			"errorBackground": "red",
+			"errorBorderColor": "brightRed",
+			"warningBackground": "brown",
+			"warningBorderColor": "brightOrange"
+		},
+		"VersionControl": {
+			"Log.Commit": {
+				"currentBranchBackground": "#0D0D40",
+				"unmatchedForeground": "brightOrange"
+			},
+			"RefLabel": {
+				"backgroundBase": "#3333FF",
+				"backgroundBrightness": 0.7
+			},
+			"FileHistory.Commit.selectedBranchBackground": "#0D0D40"
+		},
+		"WelcomeScreen": {
+			"Projects.selectionInactiveBackground": "bg0",
+			"separatorColor": "border"
+		},
+		"Window.border": "1,1,1,1,313233"
+	},
+	"icons": {
+		"ColorPalette": {
+			"Actions.Grey": "fg",
+			"Actions.Red": "red",
+			"Actions.Yellow": "yellow",
+			"Actions.Green": "brightGreen",
+			"Actions.Blue": "brightAqua",
+			"Actions.GreyInline.Dark": "bg3",
+
+			"Objects.Grey": "brightGray",
+			"Objects.RedStatus": "red",
+			"Objects.Red": "brightRed",
+			"Objects.Pink": "pink",
+			"Objects.Yellow": "brightYellow",
+			"Objects.Green": "brightGreen",
+			"Objects.Blue": "brightBlue",
+			"Objects.Purple": "brightPurple",
+			"Objects.BlackText": "bg",
+			"Objects.YellowDark": "yellow",
+			"Objects.GreenAndroid": "green",
+
+			"Checkbox.Background.Default.Dark": "bg",
+			"Checkbox.Border.Default.Dark": "gray",
+			"Checkbox.Foreground.Selected.Dark": "brightGray",
+			"Checkbox.Focus.Wide.Dark": "blue",
+			"Checkbox.Focus.Thin.Default.Dark": "brightBlue",
+			"Checkbox.Focus.Thin.Selected.Dark": "brightBlue",
+			"Checkbox.Background.Disabled.Dark": "bg",
+			"Checkbox.Border.Disabled.Dark": "aqua",
+			"Checkbox.Foreground.Disabled.Dark": "brightAqua"
+		}
+	}
+}

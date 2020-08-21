@@ -1,0 +1,28 @@
+<idea-plugin>
+  <id>com.lgzarturo.the.lone.unique.coder.dark.theme</id>
+  <name>The Lone Coder</name>
+  <version>1.0.1</version>
+  <vendor email="lgzarturo@gmail.com" url="https://www.arthurolg.com">ArturoLG</vendor>
+
+  <description><![CDATA[
+      Beautiful Dark Theme with Font Comic Style<br>
+      <em>This theme is for a night programmer</em>
+    ]]></description>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+	  <themeProvider id="7d78c797-2ccb-4675-903b-7f93b28d6ad8" path="/The_Lone_Coder.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
