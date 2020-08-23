@@ -33,7 +33,7 @@ patchPluginXml {
     changeNotes """
     <em>19-08-2020</em><br/>
     <ul>
-    <li>1.0.1	Free <a href="https://raw.githubusercontent.com/lgzarturo/TheLoneCoder/master/docs/background-code.png">brackdround</a>, best colors</a></li>
+    <li>1.0.1	Free <a href="https://raw.githubusercontent.com/lgzarturo/the-lone-coder/master/docs/background-code.png">brackdround</a>, best colors</a></li>
     <li>1.0.0   Match UI colors with the theme</li>
     <li>1.0.0	Custom colors and font</li>
     <li>1.0 	Inspiration <a href="https://plugins.jetbrains.com/plugin/12891-codelytv-theme/">CodelyTV Theme</a></li>
