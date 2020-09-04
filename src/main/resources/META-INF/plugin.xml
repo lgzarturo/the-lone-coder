@@ -1,11 +1,11 @@
 <idea-plugin>
   <id>com.lgzarturo.the.lone.unique.coder.dark.theme</id>
   <name>The Lone Coder</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <vendor email="lgzarturo@gmail.com" url="https://www.arthurolg.com">ArturoLG</vendor>
 
   <description><![CDATA[
-      Beautiful Dark Theme with Font Comic Style<br>
+      Beautiful and Vibrant Dark Theme<br>
       <em>This theme is for a night programmer</em>
     ]]></description>
 

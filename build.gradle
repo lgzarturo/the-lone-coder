@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.lgzarturo.the.lone.unique.coder.dark.theme'
-version '1.0.1'
+version '1.0.2'
 
 sourceCompatibility = 1.8
 
@@ -31,6 +31,10 @@ patchPluginXml {
     version project.version
 
     changeNotes """
+    <em>03-09-2020</em><br/>
+    <ul>
+    <li>1.0.2	Fix: Font size and font family JetBrains Mono</li>
+    </ul>
     <em>19-08-2020</em><br/>
     <ul>
     <li>1.0.1	Free <a href="https://raw.githubusercontent.com/lgzarturo/the-lone-coder/master/docs/background-code.png">brackdround</a>, best colors</a></li>
