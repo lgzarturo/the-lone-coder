@@ -1,8 +1,8 @@
 <idea-plugin>
   <id>com.lgzarturo.the.lone.unique.coder.dark.theme</id>
   <name>The Lone Coder</name>
-  <version>1.0.2</version>
-  <vendor email="lgzarturo@gmail.com" url="https://www.arthurolg.com">ArturoLG</vendor>
+  <version>1.0.3</version>
+  <vendor email="lgzarturo@gmail.com" url="https://arthurolg.com">ArturoLG</vendor>
 
   <description><![CDATA[
       Beautiful and Vibrant Dark Theme<br>

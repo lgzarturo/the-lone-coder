@@ -1,12 +1,12 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '0.4.21'
+    id 'org.jetbrains.intellij' version '0.6.5'
 }
 
 group 'com.lgzarturo.the.lone.unique.coder.dark.theme'
-version '1.0.2'
+version '1.0.3'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
     mavenCentral()
@@ -20,24 +20,29 @@ dependencies {
 // See https://www.jetbrains.com/intellij-repository/snapshots
 // See https://www.jetbrains.com/intellij-repository/releases
 intellij {
-    version '191.7479.19'
+    version '203.5981.155'
     sameSinceUntilBuild false
 }
 
 // See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
 patchPluginXml {
     sinceBuild '191'
-    untilBuild '202.*'
+    untilBuild '203.*'
     version project.version
 
     changeNotes """
+    <em>14-12-2020</em><br/>
+    <ul>
+    <li>1.0.3	Update Java 11 and support for IntelliJ 203 build</li>
+    <li>1.0.3	Fix font size for console and editor</li>
+    </ul>
     <em>03-09-2020</em><br/>
     <ul>
     <li>1.0.2	Fix: Font size and font family JetBrains Mono</li>
     </ul>
     <em>19-08-2020</em><br/>
     <ul>
-    <li>1.0.1	Free <a href="https://raw.githubusercontent.com/lgzarturo/the-lone-coder/master/docs/background-code.png">brackdround</a>, best colors</a></li>
+    <li>1.0.1	Free <a href="https://raw.githubusercontent.com/lgzarturo/the-lone-coder/master/docs/background-code.png">background</a>, best colors</a></li>
     <li>1.0.0   Match UI colors with the theme</li>
     <li>1.0.0	Custom colors and font</li>
     <li>1.0 	Inspiration <a href="https://plugins.jetbrains.com/plugin/12891-codelytv-theme/">CodelyTV Theme</a></li>

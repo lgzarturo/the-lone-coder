@@ -11,7 +11,7 @@
 	  	"bg2": "#2f3b2b",
 	  	"bg3": "#424e32",
 		"fg": "#efeee7",
-		"red": "#cd1911",
+		"red": "#c4130b",
 		"brightRed": "#f85a47",
 	  	"brown": "#8f4c01",
 	  	"brightBrown": "#926736",
@@ -208,14 +208,14 @@
 	},
 	"icons": {
 		"ColorPalette": {
-			"Actions.Grey": "fg",
+			"Actions.Grey": "gray",
 			"Actions.Red": "red",
 			"Actions.Yellow": "yellow",
 			"Actions.Green": "brightGreen",
 			"Actions.Blue": "brightAqua",
 			"Actions.GreyInline.Dark": "bg3",
 
-			"Objects.Grey": "brightGray",
+			"Objects.Grey": "gray",
 			"Objects.RedStatus": "red",
 			"Objects.Red": "brightRed",
 			"Objects.Pink": "pink",
