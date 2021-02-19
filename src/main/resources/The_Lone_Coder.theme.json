@@ -39,7 +39,7 @@
 			"disabledBorderColor": "bg3",
 			"foreground": "fg",
 			"infoForeground": "brightOrange",
-			"selectionBackground": "bg0",
+			"selectionBackground": "#2e3030",
 			"selectionForeground": "brightGray",
 			"selectionInactiveBackground": "bg1",
 			"selectionBackgroundInactive": "bg2",

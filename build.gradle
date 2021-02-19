@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.lgzarturo.the.lone.unique.coder.dark.theme'
-version '1.0.3'
+version '1.0.4'
 
 sourceCompatibility = 11
 
@@ -20,17 +20,23 @@ dependencies {
 // See https://www.jetbrains.com/intellij-repository/snapshots
 // See https://www.jetbrains.com/intellij-repository/releases
 intellij {
-    version '203.5981.155'
-    sameSinceUntilBuild false
+    version 'IC-2020.1'
+    updateSinceUntilBuild false
 }
 
 // See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
 patchPluginXml {
     sinceBuild '191'
-    untilBuild '203.*'
+    untilBuild '211.*'
     version project.version
 
-    changeNotes """
+    changeNotes """    
+    <em>18-02-2021</em><br/>
+    <ul>
+    <li>1.0.4   Support for 211 build</li>
+    <li>1.0.4   Fix color autocomplete to set more contrast with options</li>
+    <li>1.0.4   Remove custom font</li>
+    </ul>
     <em>14-12-2020</em><br/>
     <ul>
     <li>1.0.3	Update Java 11 and support for IntelliJ 203 build</li>
