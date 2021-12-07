@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.lgzarturo.the.lone.unique.coder.dark.theme'
-version '1.0.4'
+version '1.0.6'
 
 sourceCompatibility = 11
 
@@ -20,17 +20,25 @@ dependencies {
 // See https://www.jetbrains.com/intellij-repository/snapshots
 // See https://www.jetbrains.com/intellij-repository/releases
 intellij {
-    version 'IC-2020.1'
+    version 'IC-2021.3'
     updateSinceUntilBuild false
 }
 
 // See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
 patchPluginXml {
     sinceBuild '191'
-    untilBuild '211.*'
+    untilBuild '213.*'
     version project.version
 
-    changeNotes """    
+    changeNotes """
+    <em>03-08-2021</em><br/>
+    <ul>
+    <li>1.0.6   Support for 213 build</li>
+    </ul>
+    <em>03-08-2021</em><br/>
+    <ul>
+    <li>1.0.4   Support for 212 build</li>
+    </ul>
     <em>18-02-2021</em><br/>
     <ul>
     <li>1.0.4   Support for 211 build</li>
