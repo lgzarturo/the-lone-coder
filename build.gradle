@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.lgzarturo.the.lone.unique.coder.dark.theme'
-version '1.0.6'
+version '1.0.7'
 
 sourceCompatibility = 11
 
@@ -27,10 +27,14 @@ intellij {
 // See http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
 patchPluginXml {
     sinceBuild '191'
-    untilBuild '213.*'
+    untilBuild '221.*'
     version project.version
 
     changeNotes """
+    <em>12-04-2022</em><br/>
+    <ul>
+    <li>1.0.7   Support for 221 build</li>
+    </ul>
     <em>03-08-2021</em><br/>
     <ul>
     <li>1.0.6   Support for 213 build</li>
